@@ -10,6 +10,10 @@ The creative pattern is **opening action → trigger → timed reveals → clear
 
 Includes explicit stationary-camera wording, designated reveal passes, and checks for timing, reference order, physical support, and concealment coverage. Prompt wording does not guarantee exact video-model behavior or viral performance.
 
+For multi-product reels, map each reference to its product name and scene, preserve the bottle/package and its label together, and prevent labels from being copied across products. Count completed actions separately from product appearances, including the final pickup. If a result fails, distinguish observed action errors from user-reported label errors and inferred causes.
+
+The bathroom-perfume case illustrates these rules. Its scene and timing are configurable; the revised wording has not yet been validated in a new generation. Exact packaging text may require verified original product imagery or compositing.
+
 ## Use in Codex
 
 Place this folder at `~/.codex/skills/video-prompt-blueprint` (or under your configured Codex skills directory). Start a new chat if necessary for skill discovery, then ask:
@@ -29,6 +33,7 @@ Use $video-prompt-blueprint to fix unwanted camera movement in this prompt while
 - [SKILL.md](SKILL.md): reusable instructions.
 - [Prompt template](references/prompt-template.md): seven-section scaffold.
 - [Original fan example](references/chrome-fan-example.md): original prompt plus adaptation notes.
+- [Product identity and actions](references/product-identity-and-actions.md): general rules and the bathroom-perfume case.
 - [Codex interface metadata](agents/openai.yaml): skill name and invocation example.
 
 The reference example is an untested creative prompt. Uploaded reference photos and private account details are not included.
