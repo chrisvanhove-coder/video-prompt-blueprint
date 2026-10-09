@@ -1,0 +1,4 @@
+interface:
+  display_name: "Video Prompt Blueprint"
+  short_description: "Timed video prompts with camera and reveal control"
+  default_prompt: "Use $video-prompt-blueprint to turn my concept and references into a timed AI video prompt with clear camera behavior and physical transitions."
